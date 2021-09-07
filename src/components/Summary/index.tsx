@@ -9,14 +9,14 @@ export const Summary = () => {
         <Container>
             <div>
                 <header>
-                    <p>Entradas</p>
+                    <p>Incomes</p>
                     <img src={incomeImg} alt="Entradas" />
                 </header>
                 <strong>R$1000,00</strong>
             </div>
             <div>
                 <header>
-                    <p>Saídas</p>
+                    <p>Expenses</p>
                     <img src={outcomeImg} alt="Saídas" />
                 </header>
                 <strong>- R$500,00</strong>
