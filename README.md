@@ -6,7 +6,7 @@ In this project we used Styled Components, MirageJS (mock api), Context API, cus
 
 ## Links
 
-This project is deployed on netlify, to test it out click the link below.
+This project has been deployed to netlify, to test it out click the link below.
 
 [DTMoney](https://lucas-dtmoney.netlify.app/)
 
