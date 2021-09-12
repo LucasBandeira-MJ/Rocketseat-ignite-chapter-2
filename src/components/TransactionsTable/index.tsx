@@ -1,10 +1,12 @@
 import { useTransactions } from "../../hooks/useTransactions"
 import { Container } from "./styles"
 
+import trashImg from '../../assets/trash.svg'
+
 
 
 export const TransactionsTable = () => {
-    const { transactions } = useTransactions();
+    const { transactions, deleteTransaction } = useTransactions();
 
     return (
         <Container>
@@ -33,6 +35,9 @@ export const TransactionsTable = () => {
                                     new Date(transaction.createdAt)
                                 )}
                             </td>
+                            <a href="#" onClick={() => deleteTransaction(transaction.id)}>
+                                <img  src={trashImg} />
+                            </a>
                         </tr>
                     ))}
                 </tbody>
